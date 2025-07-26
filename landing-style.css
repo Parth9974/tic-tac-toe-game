@@ -1,0 +1,68 @@
+body {
+    background-color: #1c292f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c292f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('home-page/images-home/background-tic-tac-toe.png');
+    background-size: cover;          /* Scale to fill entire screen */
+    background-position: center;     /* Center the image */
+    background-repeat: no-repeat;    /* Prevent image from repeating */
+    background-attachment: fixed;    /* Keep it fixed during scroll */
+    height: 100vh;
+    margin: 0;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* dark semi-transparent layer */
+    z-index: 1;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.friends {
+    margin-bottom: 50px;
+
+}
+
+.computer,
+.friends {
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #469126;
+    padding: 10px 15px;
+    color: #f5f5f5;
+    /* or #fefefe */
+    transition: background-color 0.3s;
+
+}
+
+.computer:hover,
+.friends:hover {
+    box-shadow: 4px 4px 10px #0b6991;
+    font-size: 52px;
+    background-color: #3b7e20;
+}

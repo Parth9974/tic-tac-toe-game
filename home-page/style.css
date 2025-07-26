@@ -1,0 +1,138 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b5320; 
+    height: 340px;
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.symbols {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.symbol {
+    font-size: 70px;
+    background-color: #5c452b; 
+    border-radius: 15px;
+    border: none;
+    padding: 5px 15px;
+    transition: box-shadow 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+    color: #f5f5dc; 
+}
+
+.symbol:hover {
+    opacity: 0.8;
+    box-shadow: 3px 3px 10px black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #2e3b28; 
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 60px;
+    background-color: #3b3b2d; 
+    color: #f5f5dc; 
+    box-shadow: 5px 5px 10px #5c452b; 
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.box {
+    height: 90px;
+    color: #f5f5dc;
+    font-size: 70px;
+    background-color: #3e4d3d;
+    border-radius: 10px;
+    transition: opacity 0.15s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+.box:hover {
+    opacity: 0.8;
+}
+
+.clear-btn {
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: #c3b091; 
+    color: #1e1e1e; 
+    cursor: pointer;
+    border: none;
+    padding: 8px 10px;
+    font-weight: 10px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.clear-btn:hover {
+    opacity: 0.7;
+    font-size: 52px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.result {
+    margin-right: 60px;
+    font-size: 50px;
+    color: #f5f5dc; 
+    background-color: #4b5320; 
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+img:hover {
+    height: 65px;
+    width: 65px;
+}
+
+.last-entry-btn {
+    background-color: transparent;
+    border: none;
+    color: #c3b091; 
+}
+
+.last-entry-btn:hover {
+    color: #edc9af; 
+}
+
+.clear-and-last {
+    display: flex;
+    flex-direction: column;
+}

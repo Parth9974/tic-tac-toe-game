@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="home">
+        <div class="result"></div>
+        <div class="div-whole">
+            <div class="heading">
+                <h1>TIC TAC TOE</h1>
+            </div>
+            <div class="symbols">
+                <div class="symbol-x">
+                    <button class="symbol" onclick="show1('x')">X</button>
+                </div>
+                <div class="symbol-o">
+                    <button class="symbol" onclick="show1('o')">O</button>
+                </div>
+            </div>
+            <div class="container">
+                <button class="box1 box" onclick="show2(1)"></button>
+                <button class="box2 box" onclick="show2(2)"></button>
+                <button class="box3 box" onclick="show2(3)"></button>
+                <button class="box4 box" onclick="show2(4)"></button>
+                <button class="box5 box" onclick="show2(5)"></button>
+                <button class="box6 box" onclick="show2(6)"></button>
+                <button class="box7 box" onclick="show2(7)"></button>
+                <button class="box8 box" onclick="show2(8)"></button>
+                <button class="box9 box" onclick="show2(9)"></button>
+            </div>
+        </div>
+        <div class="clear-and-last">
+        <div class="clear-last-entry"><button class="last-entry-btn" onclick="delete_last()"><img src="images-home/Button-Close-icon.png"></button></div>
+        <div class="div-clear-btn">
+            <button class="clear-btn" onclick="clear_btn()">Clear</button>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
