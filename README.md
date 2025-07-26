@@ -9,7 +9,7 @@ A simple browser-based Tic Tac Toe game built using HTML, CSS, and JavaScript.
 - Reset/Play again functionality
 
 ## 🚀 How to Run
-Just open `index.html` in your browser.
+Just open `landing.html` in your browser.
 
 ## 🔜 Coming Soon
 - Play with Computer (AI Mode)
